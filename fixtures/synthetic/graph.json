@@ -1,0 +1,145 @@
+{
+  "_header": "SYNTHETIC: fixed seed 21; illustrative graph, not real decision history.",
+  "edges": [
+    {
+      "from": "kdg-d1",
+      "kind": "supported-by",
+      "to": "kdg-e1"
+    },
+    {
+      "from": "kdg-d2",
+      "kind": "supported-by",
+      "to": "kdg-e2"
+    },
+    {
+      "from": "kdg-d3",
+      "kind": "supported-by",
+      "to": "kdg-e3"
+    },
+    {
+      "from": "kdg-d4",
+      "kind": "relies-on",
+      "to": "kal-0001"
+    },
+    {
+      "from": "kdg-d1",
+      "kind": "relies-on",
+      "to": "kdg-a1"
+    },
+    {
+      "from": "kdg-d1",
+      "kind": "leads-to",
+      "to": "kdg-c1"
+    },
+    {
+      "from": "kdg-d1",
+      "kind": "depends-on",
+      "to": "kdg-d3"
+    },
+    {
+      "from": "kdg-d1",
+      "kind": "depends-on",
+      "to": "kdg-d2"
+    },
+    {
+      "from": "kdg-d2",
+      "kind": "depends-on",
+      "to": "kdg-d4"
+    },
+    {
+      "from": "kdg-d3",
+      "kind": "leads-to",
+      "to": "kdg-c2"
+    },
+    {
+      "from": "kdg-d4",
+      "kind": "depends-on",
+      "to": "kdg-d5"
+    },
+    {
+      "from": "kdg-d5",
+      "kind": "depends-on",
+      "to": "kdg-d2"
+    }
+  ],
+  "nodes": {
+    "kal-0001": {
+      "body": "{\"created_at\": \"2026-09-30T00:00:00+00:00\", \"source\": \"SYNTHETIC example\", \"stakes\": \"high\", \"status\": \"refuted\"}",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "assumption",
+      "title": "SYNTHETIC refuted assumption"
+    },
+    "kdg-a1": {
+      "body": "SYNTHETIC illustrative item; sample=811",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "assumption",
+      "title": "SYNTHETIC assumption 1"
+    },
+    "kdg-c1": {
+      "body": "SYNTHETIC illustrative item; sample=486",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "consequence",
+      "title": "SYNTHETIC consequence 1"
+    },
+    "kdg-c2": {
+      "body": "SYNTHETIC illustrative item; sample=827",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "consequence",
+      "title": "SYNTHETIC consequence 2"
+    },
+    "kdg-d1": {
+      "body": "SYNTHETIC illustrative item; sample=168",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "decision",
+      "title": "SYNTHETIC decision 1"
+    },
+    "kdg-d2": {
+      "body": "SYNTHETIC illustrative item; sample=428",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "decision",
+      "title": "SYNTHETIC decision 2"
+    },
+    "kdg-d3": {
+      "body": "SYNTHETIC illustrative item; sample=706",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "decision",
+      "title": "SYNTHETIC decision 3"
+    },
+    "kdg-d4": {
+      "body": "SYNTHETIC illustrative item; sample=428",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "decision",
+      "title": "SYNTHETIC decision 4"
+    },
+    "kdg-d5": {
+      "body": "SYNTHETIC illustrative item; sample=650",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "decision",
+      "title": "SYNTHETIC decision 5"
+    },
+    "kdg-d6": {
+      "body": "SYNTHETIC illustrative item; sample=288",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "decision",
+      "title": "SYNTHETIC decision 6"
+    },
+    "kdg-e1": {
+      "body": "SYNTHETIC illustrative item; sample=490",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "evidence",
+      "title": "SYNTHETIC evidence 1"
+    },
+    "kdg-e2": {
+      "body": "SYNTHETIC illustrative item; sample=863",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "evidence",
+      "title": "SYNTHETIC evidence 2"
+    },
+    "kdg-e3": {
+      "body": "SYNTHETIC illustrative item; sample=221",
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "kind": "evidence",
+      "title": "SYNTHETIC evidence 3"
+    }
+  }
+}

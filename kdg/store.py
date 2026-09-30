@@ -85,6 +85,8 @@ class Store:
         for entry in entries:
             if not isinstance(entry, dict) or not isinstance(entry.get("id"), str) or not entry["id"].startswith("kal-") or not isinstance(entry.get("text"), str):
                 raise ValueError("Each assumption requires a kal- prefixed id and text")
+            if "created_at" in entry and not isinstance(entry["created_at"], str):
+                raise ValueError(f"Invalid created_at for assumption: {entry['id']}")
             if entry["id"] in self.graph["nodes"] and self.graph["nodes"][entry["id"]]["kind"] != "assumption":
                 raise ValueError(f"Import id collision: {entry['id']} is not an assumption")
         added, skipped = [], []

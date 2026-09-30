@@ -1,0 +1,13 @@
+{
+  "_header": "SYNTHETIC: fixed seed 21; illustrative graph, not real decision history.",
+  "assumptions": [
+    {
+      "created_at": "2026-09-30T00:00:00+00:00",
+      "id": "kal-0001",
+      "source": "SYNTHETIC example",
+      "stakes": "high",
+      "status": "refuted",
+      "text": "SYNTHETIC refuted assumption"
+    }
+  ]
+}

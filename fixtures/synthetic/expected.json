@@ -1,0 +1,35 @@
+{
+  "_header": "SYNTHETIC: fixed seed 21; illustrative graph, not real decision history.",
+  "impact": [
+    [
+      "kdg-c1",
+      1
+    ],
+    [
+      "kdg-d2",
+      1
+    ],
+    [
+      "kdg-d3",
+      1
+    ],
+    [
+      "kdg-c2",
+      2
+    ],
+    [
+      "kdg-d4",
+      2
+    ],
+    [
+      "kdg-d5",
+      3
+    ]
+  ],
+  "orphans": [
+    "kdg-d5",
+    "kdg-d6"
+  ],
+  "seed": 21,
+  "seed_decision": "kdg-d1"
+}
