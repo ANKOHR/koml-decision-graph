@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koml-decision-graph"
+version = "0.1.0"
+description = "Every decision mapped: what supports it, what it assumes, what breaks if it changes."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+kdg = "kdg.cli:main"
+
+[tool.setuptools]
+packages = ["kdg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
